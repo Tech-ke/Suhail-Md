@@ -25,8 +25,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "stacy254";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254784139100";
 
 
 
@@ -34,7 +34,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '0'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
+global.gdbye = process.env.GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
@@ -49,20 +49,20 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "";
 
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_02_35_03_22_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiUUlwcW1GQkJZSG5TWW1XS2V0N0RXUncwMkZxdEVMdnZqV1Q1Wll6eDVVbz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInppR0xLanZRYlhhMzMyNkNHQWlnVk5IdVZ4N2MxdEIvazAvMm5ObUJtd2c9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiUUJsd3BTaFpoZEZFa0ZZRDlnTE5URU9NOVVIS3ljRWNtZ2pMSVZjS3pGYz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIitXMGV1S1pQMFZMc241TUVIbmFKeDBsQ0hobWhFdEM2N3FRZDIvcWo3RVE9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiaUZqRHlIeFhhWDF4eFdsVVYzOGxVZjZjZEQzbnJkUjB3eWRUUFNsdXMzVT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjJPRVdCaTF3T0RnckFtYVdwaWpNTFNiQ1dMbkJBamJoSjd0dTE5Wm5SSFk9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCI2RSsySGRZRFp4Tmx5NXRuYU1EOFJXNWhuV3hINmNjUldhdUR2ZCtNclY4PVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiYWY3WlltQmdrTXpweERWaU5hdHFqa3BFSGoyQzhRSWxmQkthZ3d1d2kyND1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJIbC9Lam1TT241MWxsWXJtd1dQL0hrUVZLYzYxSTFuN1ZBK3ZJbTZhMWlQTENFN2RjQk55dVBLOGF4L1MxWm5aTHdyOSsxSmV0Sm15ZldEM1RuYUpnUT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MTUsXCJhZHZTZWNyZXRLZXlcIjpcIjk5OEEvNXlaNlYwZ3RuV1VBUVZzalRzTU5RSWZUTnhPY0VocXhmYW9WSkE9XCIsXCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXNcIjpbXSxcIm5leHRQcmVLZXlJZFwiOjMxLFwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWRcIjozMSxcImFjY291bnRTeW5jQ291bnRlclwiOjAsXCJhY2NvdW50U2V0dGluZ3NcIjp7XCJ1bmFyY2hpdmVDaGF0c1wiOmZhbHNlfSxcImRldmljZUlkXCI6XCJSTmVSZ3U1dlRDQ3IxcUJpdU1zeHVBXCIsXCJwaG9uZUlkXCI6XCIwNWYyNTcyMC1jMDg0LTQzN2UtYTZiMC00NTU2YTExYWZiZWFcIixcImlkZW50aXR5SWRcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIi9aVmZia2R6dXBmMjRnSFNGT0pmUW5VQ1lUVT1cIn0sXCJyZWdpc3RlcmVkXCI6dHJ1ZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJHczlQQ2ZZRFVIaDQ4d3k4Tk5KNDZlWGQ0d009XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJwYWlyaW5nQ29kZVwiOlwiSjQ4V1RGQjRcIixcIm1lXCI6e1wiaWRcIjpcIjI1NDc4NDEzOTEwMDo5QHMud2hhdHNhcHAubmV0XCIsXCJuYW1lXCI6XCJTVEFDWVwiLFwibGlkXCI6XCIyMjYyMzc2NzA3NjA1MzA6OUBsaWRcIn0sXCJhY2NvdW50XCI6e1wiZGV0YWlsc1wiOlwiQ0ltazVkd0NFUFRjODY4R0dBRWdBQ2dBXCIsXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6XCJkTkVqa2xWUk9ENGdQaFUyZC9QSlUwL3FJVWJzQTNZKzNWTHNoeGhYQUcwPVwiLFwiYWNjb3VudFNpZ25hdHVyZVwiOlwiTWpxYUFadEhwb3dKRno5T0UrZXZkSWN6bXl3OENXbkhzN1VLa0NyYTYzL042dVIrYjdkZ21HcEVZbUcyQjgrU21uTzhRajlKK0tOLzNRdllBZkdCQ2c9PVwiLFwiZGV2aWNlU2lnbmF0dXJlXCI6XCJtVE5UVm5WQk83ZzBqenhtMGZTVlljOWlkSDYvQ25lVzBRS3hQTjdvUy9NR0ZqdDNPdTFHWWdIMjhRNFpXYXRuMFU0azhwTDJZU3JzaGF3MVc4TTJnZz09XCJ9LFwic2lnbmFsSWRlbnRpdGllc1wiOlt7XCJpZGVudGlmaWVyXCI6e1wibmFtZVwiOlwiMjU0Nzg0MTM5MTAwOjlAcy53aGF0c2FwcC5uZXRcIixcImRldmljZUlkXCI6MH0sXCJpZGVudGlmaWVyS2V5XCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJCWFRSSTVKVlVUZytJRDRWTm5menlWTlA2aUZHN0FOMlB0MVM3SWNZVndCdFwifX1dLFwicGxhdGZvcm1cIjpcInNtYmFcIixcImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcFwiOjE3MTEwNzQ5MzYsXCJteUFwcFN0YXRlS2V5SWRcIjpcIkFBQUFBRmEwXCJ9IiwKICAiYXBwLXN0YXRlLXN5bmMta2V5LUFBQUFBRmEwLmpzb24iOiAie1wia2V5RGF0YVwiOlwiT1J6V2taRHBJMEtNMUdyK0cycWZHT09iaVp5bmRuZnhKdUR0OWNHdlVaVT1cIixcImZpbmdlcnByaW50XCI6e1wicmF3SWRcIjo3MzE0NjgyOTIsXCJjdXJyZW50SW5kZXhcIjoyLFwiZGV2aWNlSW5kZXhlc1wiOlswLDJdfSxcInRpbWVzdGFtcFwiOlwiMFwifSIKfQ==" ;
 
 
 module.exports = {
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.1",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
+  author : process.env.PACK_AUTHER|| "Stacy-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "stacy❤️",
+  ownername:process.env.OWNER_NAME|| "Its' Stacy",
 
 
   errorChat : process.env.ERROR_CHAT || "",
